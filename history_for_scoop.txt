@@ -1,0 +1,80 @@
+    1  ls
+    2  su hadoopuser
+    3  sudo apt update
+    4  sudo apt upgrade -y
+    5  sudo apt purge openjdk*
+    6  sudo add-apt-repository -y ppa:webupd8team/java
+    7  sudo apt update
+    8  sudo  apt install -y oracle-java8-installer
+    9  java -version
+   10  nano /etc/profile
+   11  nano /etc/sysctl.conf
+   12  nano /etc/profile
+   13  sudo  nano /etc/profile
+   14  nano  /etc/sysctl.conf
+   15  sudo nano  /etc/sysctl.conf
+   16  reboot
+   17  su hadoopuser
+   18  addgroup hadoopgroup
+   19  sudo addgroup hadoopgroup
+   20  adduser -ingroup hadoopgroup hadoopuser
+   21  sudo adduser -ingroup hadoopgroup hadoopuser
+   22  sudo apt install ssh
+   23  sudo  systemctl enable ssh
+   24  sudo systemctl start ssh
+   25  su hadoopuser
+   26  cd
+   27  sudo apt-get update
+   28  sudo apt-get install mysql-server
+   29  sudo mysql_secure_installation
+   30  sudo mysql
+   31  sudo apt update && sudo apt upgrade
+   32  sudo mysql-workbench
+   33  sudo apt install mysql-workbench
+   34  sudo mysql-workbench
+   35  mysql-workbench
+   36  sudo mysql-workbench
+   37  sudo apt update && sudo apt upgrade
+   38  sudo mysql-workbench
+   39  cd
+   40  cd/usr/local/hadoop/etc/hadoop
+   41  cd /usr/local/hadoop/etc/hadoop
+   42  sudo nano core-site.xml
+   43  sudo nano mapred-site.xml.template
+   44  su hadoopuser
+   45  cd
+   46  sudo wget  wget http://apache.claz.org/hadoop/common/hadoop-2.8.5/hadoop-2.8.5.tar.gz
+   47  sudo  tar xzf hadoop-2.7.3.tar.gz
+   48  sudo  tar xzf hadoop-2.8.5.tar.gz
+   49  sudo  rm -rf hadoop-2.8.5.tar.gz
+   50  sudo mv hadoop-2.8.5 /usr/local
+   51  sudo ln -sf /usr/local/hadoop-2.8.5/ /usr/local/hadoop
+   52  sudo  chown -R hadoopuser:hadoopgroup /usr/local/hadoop-2.8.5/
+   53  su hadopuser
+   54  su hadoopuser
+   55  cd
+   56  sudo nano  /usr/local/hadoop/etc/hadoop/hadoop-env.sh
+   57  cd  /usr/local/hadoop/etc/hadoop
+   58  sudo nano core-site.xml
+   59  sudo nano hdfs-site.xml
+   60  sudo nano mapred-site.xml.template
+   61  sudo nano yarn-site.xml
+   62  sudo nano mapred-site.xml.template
+   63  su hadoopuser
+   64  cd
+   65  cd /usr/local/hadoop/etc/hadoop 
+   66  sudo nano mapred-site.xml.template
+   67  su hadoopuser
+   68  cd
+   69  cd /usr/local/hadoop/etc/hadoop
+   70  sudo nano mapred-site.xml.template
+   71  sudo nano mapred-site.xml.
+   72  su hadoopuser
+   73  sudo nano core-site.xml
+   74  sudo nano hdfs-site.xml
+   75  sudo nano mapred-site.xml.template
+   76  sudo nano mapred-site.xml
+   77  sudo nano yarn-site.xml
+   78  su hadoopuser
+   79  cd
+   80  history > history_for_scoop.txt
